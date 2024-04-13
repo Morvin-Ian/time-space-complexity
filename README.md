@@ -1,6 +1,9 @@
 # <ins>Big O notation</ins>
 Big O notation is a metric used in computer science to classify algorithms based on their time and space complexity.
 
+![1_nlogn](https://github.com/Morvin-Ian/time-space-complexity/assets/78966128/2f3441e6-e2dc-4f23-8386-3641c64160a3)
+
+
 # Time and Space complexity
 - The time complexity of an algorithm is the amount of
 time it takes for each statement to complete. As a result,
@@ -69,7 +72,5 @@ factorially with the size of the input n. This means that the number of operatio
 - Hash Tables: Space complexity varies depending on load factor and collision resolution, typically O(n) in worst-case scenarios.
 
 - Trees and Graphs: Space complexity depends on the structure and number of nodes, ranging from O(n) for unbalanced trees to O(log⁡n) for balanced binary search trees.
-
-![1_nlogn](https://github.com/Morvin-Ian/time-space-complexity/assets/78966128/2f3441e6-e2dc-4f23-8386-3641c64160a3)
 
 #### In terms of consideration, time is always a priority since one can purchase more memory not time.
