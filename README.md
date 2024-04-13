@@ -54,7 +54,7 @@ factorially with the size of the input n. This means that the number of operatio
 ### Linearithmic algorithms O(n log n)
 - Linearithmic time complexity it’s slightly slower than a linear algorithm. However, it’s still much better than a quadratic algorithm
 - The logarithmic (log⁡nlogn) term grows much slower than linear (n) or quadratic (n^2) terms. This logarithmic growth is crucial in maintaining efficient performance for large n values.
-  - (MergeSort)[./linearithmic]
+  - [MergeSort](./linearithmic)
   - QuickSort
   - HeapSort
 
