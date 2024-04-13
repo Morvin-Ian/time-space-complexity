@@ -1,4 +1,4 @@
-# Big O notation
+# <ins>Big O notation</ins>
 Big O notation is a metric used in computer science to classify algorithms based on their time and space complexity.
 
 # Time and Space complexity
@@ -9,15 +9,15 @@ It also aids in defining an algorithm's effectiveness and evaluating its perform
 - The amount of memory used by a program to execute it is represented by its space complexity. 
 
 ## Time Complexity
-### Constant time O(1)
+### [Constant time](./src/constant) O(1)
 - As an algorithm gets very large inputs, the runtime of the algorithm is the same. 
 This implies that the amount of time or memory does not scale with n. For time complexity, 
 this means that n is not iterated on or recursed.
 
-### Linear time O(n)
+### [Linear time](./src/linear) O(n)
 - Linear time complexity O(n) implies that the time required by an algorithm to complete is directly proportional to the size of the input n. As n increases, the time taken also increases linearly.
 
-### Logarithmic time O(log(n))
+### [Logarithmic time](./src/logarithimic) O(log(n))
 - Logarithmic time complexity O(log(n)) means that as the size n of the input increases, the time 
 taken by the algorithm increases logarithmically.
 - If an algorithm has O(log⁡(n)) time complexity, doubling n does not double the time 
@@ -30,7 +30,7 @@ complexity by a constant factor.
     element is found or the search interval becomes empty.
     - The logarithmic time complexity arises from the fact that the size of the search space is reduced by a constant factor (2) with each iteration, resulting in a logarithmic number of iterations required to find the target element.
 
-### Quadratic time O(n^2)
+### [Quadratic time](./src/quadratic) O(n^2)
 - Quadratic time complexity O(n^2) means that the time taken by an algorithm grows quadratically with the 
 size of the input n. As n increases, the time taken increases quadratically, 
 specifically proportional to n^2.
@@ -40,24 +40,25 @@ resulting in n^2 total iterations.
     - Bubble Sort has a worst-case time complexity of O(n^2), which occurs when the input list is in reverse sorted order.
     - In the best-case scenario (when the list is already sorted), the algorithm still requires O(n) time because it needs to pass through the list once to determine that no swaps are needed. 
 
-### Exponetial time O(2^n)
+### [Exponetial time](./src/exponential) O(2^n)
 - Exponential time complexity O(2^n) describes an algorithm whose time complexity doubles with each additional element
 in the input set. This means that as the size of the input n increases by one, 
 the time to complete the algorithm roughly doubles. 
-- The `2` can be any number
 
-### n-factorial time O(n!)
+### [n-factorial time](./src/factorial) O(n!)
 - The time complexity O(n!), often referred to as factorial time complexity, describes algorithms whose time required grows 
 factorially with the size of the input n. This means that the number of operations or computations increases very rapidly as n increases, making n! (n factorial) a very large number.
 
+  - Permutations of a string.
+  - Solving the traveling salesman problem with a brute-force search
 
-### Linearithmic algorithms O(n log n)
+
+### [Linearithmic algorithms](./src/linearithmic) O(n log n)
 - Linearithmic time complexity it’s slightly slower than a linear algorithm. However, it’s still much better than a quadratic algorithm
 - The logarithmic (log⁡nlogn) term grows much slower than linear (n) or quadratic (n^2) terms. This logarithmic growth is crucial in maintaining efficient performance for large n values.
-  - [MergeSort](./src/linearithmic)
+  - MergeSort
   - QuickSort
   - HeapSort
-
 
 ## Space Complexity
 - Arrays and Linked Lists: Utilize O(n) space complexity for storing n elements, with linked lists offering dynamic memory allocation benefits.
