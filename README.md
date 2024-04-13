@@ -15,7 +15,7 @@ This implies that the amount of time or memory does not scale with n. For time c
 this means that n is not iterated on or recursed.
 
 ### Linear time O(n)
-- Linear time complexity O(n) implies that the time required by an algorithm to complete is directly proportional to the size of the input nn. As nn increases, the time taken also increases linearly.
+- Linear time complexity O(n) implies that the time required by an algorithm to complete is directly proportional to the size of the input n. As n increases, the time taken also increases linearly.
 
 ### Logarithmic time O(log(n))
 - Logarithmic time complexity O(log(n)) means that as the size n of the input increases, the time 
@@ -36,6 +36,9 @@ size of the input n. As n increases, the time taken increases quadratically,
 specifically proportional to n^2.
 - Algorithms with quadratic time complexity often involve nested loops where each loop iterates n times over an n-sized input, 
 resulting in n^2 total iterations.
+  - Bubble Sort 
+    - Bubble Sort has a worst-case time complexity of O(n^2), which occurs when the input list is in reverse sorted order.
+    - In the best-case scenario (when the list is already sorted), the algorithm still requires O(n) time because it needs to pass through the list once to determine that no swaps are needed. 
 
 ### Exponetial time O(2^n)
 - Exponential time complexity O(2^n) describes an algorithm whose time complexity doubles with each additional element
@@ -48,4 +51,19 @@ the time to complete the algorithm roughly doubles.
 factorially with the size of the input n. This means that the number of operations or computations increases very rapidly as n increases, making n! (n factorial) a very large number.
 
 
-##### In terms of consideration, time is always a priority since one can purchase more memory but not time.
+### Linearithmic algorithms O(n log n)
+- Linearithmic time complexity it’s slightly slower than a linear algorithm. However, it’s still much better than a quadratic algorithm
+- The logarithmic (log⁡nlogn) term grows much slower than linear (n) or quadratic (n^2) terms. This logarithmic growth is crucial in maintaining efficient performance for large n values.
+  - (MergeSort)[./linearithmic]
+  - QuickSort
+  - HeapSort
+
+
+## Space Complexity
+- Arrays and Linked Lists: Utilize O(n) space complexity for storing n elements, with linked lists offering dynamic memory allocation benefits.
+
+- Hash Tables: Space complexity varies depending on load factor and collision resolution, typically O(n) in worst-case scenarios.
+
+- Trees and Graphs: Space complexity depends on the structure and number of nodes, ranging from O(n) for unbalanced trees to O(log⁡n) for balanced binary search trees.
+
+##### In terms of consideration, time is always a priority since one can purchase more memory not time.
