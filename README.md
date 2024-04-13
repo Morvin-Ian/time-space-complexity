@@ -57,8 +57,11 @@ factorially with the size of the input n. This means that the number of operatio
 - Linearithmic time complexity it’s slightly slower than a linear algorithm. However, it’s still much better than a quadratic algorithm
 - The logarithmic (log⁡nlogn) term grows much slower than linear (n) or quadratic (n^2) terms. This logarithmic growth is crucial in maintaining efficient performance for large n values.
   - MergeSort
+    - Merge sort is a sorting algorithm that follows the divide-and-conquer approach. It works by recursively dividing the input array into smaller subarrays and sorting those subarrays then merging them back together to obtain the sorted array
+ 
+    ![MergeSort](https://github.com/Morvin-Ian/time-space-complexity/assets/78966128/533c7166-1e19-4447-bd19-39ec283305e3)
+
   - QuickSort
-  - HeapSort
 
 ## Space Complexity
 - Arrays and Linked Lists: Utilize O(n) space complexity for storing n elements, with linked lists offering dynamic memory allocation benefits.
@@ -66,5 +69,8 @@ factorially with the size of the input n. This means that the number of operatio
 - Hash Tables: Space complexity varies depending on load factor and collision resolution, typically O(n) in worst-case scenarios.
 
 - Trees and Graphs: Space complexity depends on the structure and number of nodes, ranging from O(n) for unbalanced trees to O(log⁡n) for balanced binary search trees.
+
+  
+![big-o-running-time-complexity](https://github.com/Morvin-Ian/time-space-complexity/assets/78966128/58ae4767-8adb-4e79-951d-f28fd63a2d6e)
 
 ##### In terms of consideration, time is always a priority since one can purchase more memory not time.
