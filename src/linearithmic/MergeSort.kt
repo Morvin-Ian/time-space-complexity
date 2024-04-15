@@ -7,9 +7,9 @@ fun mergeSort(arr: IntArray) {
 fun mergeSort(arr: IntArray, low: Int, high: Int) {
     if (low < high) {
         val mid = (low + high) / 2
-        mergeSort(arr, low, mid)      // Sort the left half
-        mergeSort(arr, mid + 1, high) // Sort the right half
-        merge(arr, low, mid, high)    // Merge the sorted halves
+        mergeSort(arr, low, mid)
+        mergeSort(arr, mid + 1, high)
+        merge(arr, low, mid, high)
     }
 }
 
