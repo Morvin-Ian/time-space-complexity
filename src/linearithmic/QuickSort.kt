@@ -1,12 +1,9 @@
 package linearithmic
 
-private fun quickSort(list: MutableList<Int>, left: Int = 0, right: Int = list.lastIndex): List<Number> {
-    // Rearrange elements and returns correct index of the pivot
-    // All elements smaller than element will be on the left side of the array (smaller indexes)
-    // All elements larger than element will be on the left side of the array (lager indexes)
+private fun quickSort(list: MutableList<Int>, left: Int = 0, right: Int = list.lastIndex): List<Int> {
     fun pivot(list: MutableList<Int>, start: Int = 0, end: Int = list.lastIndex): Int {
-        val pivot = list[start] // We decide that pivot is our first element (it can be any element)
-        var swapIndex = start // first index that we can swap (number of element that are less than pivot)
+        val pivot = list[start]
+        var swapIndex = start
 
         (start + 1..end).forEach {
             if (pivot > list[it]) {
