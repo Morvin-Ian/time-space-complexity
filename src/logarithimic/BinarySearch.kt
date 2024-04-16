@@ -8,7 +8,7 @@ fun binarySearch(value:Int, array: IntArray):Int?{
     var high = array.lastIndex
     var midpoint = (low + high)/2
 
-    while (low <= midpoint){
+    while (low <= high){
         midpoint = (low + high)/2
         if (array[midpoint] == value){
             return midpoint
