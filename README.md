@@ -1,5 +1,7 @@
 # <ins>Big O notation</ins>
-Big O notation is a metric used in computer science to classify algorithms based on their time and space complexity.
+The notation Ο(n) is the formal way to express the upper bound of an algorithm's running
+time. It measures the worst case time complexity or the longest amount of time an
+algorithm can possibly take to complete.
 
 ![1_nlogn](https://github.com/Morvin-Ian/time-space-complexity/assets/78966128/2f3441e6-e2dc-4f23-8386-3641c64160a3)
 
