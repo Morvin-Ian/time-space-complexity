@@ -5,6 +5,14 @@ algorithm can possibly take to complete.
 
 ![1_nlogn](https://github.com/Morvin-Ian/time-space-complexity/assets/78966128/2f3441e6-e2dc-4f23-8386-3641c64160a3)
 
+# Omega Notation, Ω
+The notation Ω(n) is the formal way to express the lower bound of an algorithm's running
+time. It measures the best case time complexity or the best amount of time an algorithm
+can possibly take to complete.
+
+# Theta Notation, θ
+The notation θ(n) is the formal way to express both the lower bound and the upper bound
+of an algorithm's running time.
 
 # Time and Space complexity
 - The time complexity of an algorithm is the amount of
